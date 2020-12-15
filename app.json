@@ -1,0 +1,33 @@
+{
+	"expo": {
+		"name": "DonutBox",
+		"slug": "DonutBox",
+		"privacy": "public",
+		"platforms": ["ios", "android"],
+		"version": "1.0.5",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 30000
+		},
+		"assetBundlePatterns": ["**/*"],
+		"androidStatusBarColor": "#c17272",
+		"androidStatusBar": {
+			"barStyle": "light-content",
+			"backgroundColor": "#c17272"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.38thSS.casarottochat",
+			"buildNumber": "1"
+		},
+		"android": {
+			"package": "com.thirtyEigthSS.casarottochat"
+		}
+	}
+}
